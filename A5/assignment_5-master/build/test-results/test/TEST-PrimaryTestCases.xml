@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PrimaryTestCases" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-04-27T15:21:31" hostname="LAPTOP-UFQ8JNJ3" time="3.522">
+  <properties/>
+  <testcase name="testSFW" classname="PrimaryTestCases" time="3.522"/>
+  <system-out><![CDATA[Done loading files
+In Pprojectfilter type
+Donerules
+[+] Logical RelNode:
+LogicalProject(FIRST_NAME=[$1])
+  LogicalFilter(condition=[AND(>($0, 100), <($0, 150))])
+    PTableScan(table=[[FILM_DB, actor]])
+
+in eval 1
+In logical to physical 1
+here asserting
+PProjectFilter copy
+here asserting
+In logical to physical 2 PProjectFilter
+In logical to physical 3
+in eval 2
+[+] Physical RelNode:
+PProjectFilter(FIRST_NAME=[$1])
+  PTableScan(table=[[FILM_DB, actor]])
+
+PProjectFilter
+relNode.toString()
+Result size is 49
+Test passed :)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
