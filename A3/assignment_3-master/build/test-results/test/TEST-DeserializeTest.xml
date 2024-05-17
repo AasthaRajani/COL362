@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DeserializeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-03-24T12:06:40" hostname="LAPTOP-UFQ8JNJ3" time="1.231">
+  <properties/>
+  <testcase name="test_get_records_from_block" classname="DeserializeTest" time="1.231"/>
+  <system-out><![CDATA[Loading file: film_category.csv
+Done writing file
+
+Loading file: country.csv
+Done writing file
+
+Loading file: address.csv
+Done writing file
+
+Loading file: city.csv
+Done writing file
+
+Loading file: film_actor.csv
+Done writing file
+
+Loading file: language.csv
+Done writing file
+
+Loading file: staff.csv
+Done writing file
+
+Loading file: film.csv
+Done writing file
+
+Loading file: store.csv
+Done writing file
+
+Loading file: inventory.csv
+Done writing file
+
+Loading file: rental.csv
+Done writing file
+
+Loading file: actor.csv
+Done writing file
+
+Loading file: payment.csv
+Done writing file
+
+Loading file: category.csv
+Done writing file
+
+Loading file: customer.csv
+Done writing file
+
+Done loading files
+Test passed :)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
