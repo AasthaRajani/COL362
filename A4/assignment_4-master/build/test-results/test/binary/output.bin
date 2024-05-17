@@ -1,0 +1,18 @@
+ERelnode rel#4:LogicalProject.NONE(input=LogicalFilter#2,exprs=[$1])
+phyRelNode PProject
+Result size is 49
+Test passed :)
+phyRelNode PSort
+Test passed :)
+phyRelNode PSort
+Result size is 16044
+Rows accumulated 16044
+Test passed :)
+phyRelNode PAggregate
+Result size is 14596
+Rows accumulated 14596
+Size of result in ja is 1
+All three assertions passed 0
+%All three assertions passed 1 14596
+All three assertions passed 2
+Test passed :)
