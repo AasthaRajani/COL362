@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PrimaryTestCases" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-04-16T17:15:46" hostname="LAPTOP-UFQ8JNJ3" time="2.832">
+  <properties/>
+  <testcase name="testSFW" classname="PrimaryTestCases" time="2.365"/>
+  <testcase name="testSort" classname="PrimaryTestCases" time="0.114"/>
+  <testcase name="testJoinAggregateSort_1" classname="PrimaryTestCases" time="0.211"/>
+  <testcase name="testJoinAggregate_1" classname="PrimaryTestCases" time="0.141"/>
+  <system-out><![CDATA[Relnode rel#4:LogicalProject.NONE(input=LogicalFilter#2,exprs=[$1])
+phyRelNode PProject
+Result size is 49
+Test passed :)
+phyRelNode PSort
+Test passed :)
+phyRelNode PSort
+Result size is 16044
+Rows accumulated 16044
+Test passed :)
+phyRelNode PAggregate
+Result size is 14596
+Rows accumulated 14596
+Size of result in ja is 1
+All three assertions passed 0
+All three assertions passed 1 14596
+All three assertions passed 2
+Test passed :)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
